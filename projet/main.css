@@ -1,0 +1,63 @@
+*, *::before, *::after{
+    margin: 0;
+    box-sizing:border-box;
+}
+
+nav{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    background: white;
+    width: 100%;
+    padding: .9rem 5rem;
+    color: white;
+    word-spacing: 0.15rem;
+    padding-bottom: 40px;
+    word-spacing: 50px;
+}
+
+.nav-item{
+    font-size: 19px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+ul li a{
+    color: black;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    word-spacing: 1px;
+
+}
+
+ul li a:hover{                          
+    color: #8b8b59;
+    text-decoration: underline;
+}
+
+body{
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+
+
+.intro{
+    margin-top: 60px;
+    margin-left: 15%;
+    margin-right: 25%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 60px;
+}
+
+.image_intro{
+    margin-left: 50%;
+    margin-bottom: 60px;
+
+}
